@@ -1,0 +1,106 @@
+.my-col{
+    border: 2px solid red;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-size: 15pt;
+    font-weight: 900;
+}
+.navbar{
+
+    color: blueviolet;
+    background: linear-gradient(rgba(255, 255, 255,0.4),rgba(255, 255, 255) );
+}
+.navbar .nav-link{
+    color: blue;
+    font-weight: 900;
+}
+.parallax {
+    /* The image used */
+    position: absolute;
+    width: 100%;
+    background-image: url(Background.jpg);
+  
+    /* Set a specific height */
+    min-height: 863.9px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.game{
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+
+#dino{
+    width: 50px;
+    height: 50px;
+    background-image: url(trex.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 98px;
+    left: 0px;
+}
+
+.jump{
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0%{
+        top: 98px;
+    }
+    30%{
+        top: 80px;
+    }
+    50%{
+        top: 30px;
+    }
+    80%{
+        top: 80px;
+    }
+    100%{
+        top: 98px;
+    }
+}
+
+#cactus{
+    width: 20px;
+    height: 40px;
+    position: relative;
+    background-image: url(cactus.png);
+    background-size: 20px 40px;
+    top: 59px;
+    left: 99%;
+    
+    
+
+}
+.start{
+    animation: block 1s infinite linear;
+}
+@keyframes block {
+    0%{
+        left: 99%;
+
+    }
+    100%{
+        left:0%;
+    }
+}
+.hide{
+    visibility: hidden;
+}
+
+@media screen and (max-width:992px){
+    #dinothunder{
+        display: none;
+    }
+}
