@@ -10,7 +10,7 @@
 #dino{
     width: 50px;
     height: 50px;
-    background-image: url(/docs/img/trex.png);
+    background-image: url(trex.png);
     background-size: 50px 50px;
     position: relative;
     top: 99px;
@@ -42,7 +42,7 @@
     width: 20px;
     height: 40px;
     position: relative;
-    background-image: url(/docs/img/cactus.png);
+    background-image: url(cactus.png);
     background-size: 20px 40px;
     top: 59px;
     left: 580px;
