@@ -5,9 +5,38 @@
     margin: 0;
     padding: 0;
 }
+.navbar-brand{
+    font-size: 15pt;
+    font-weight: 900;
+}
+.navbar{
+
+    color: blueviolet;
+    background: linear-gradient(rgba(255, 255, 255,0.4),rgba(255, 255, 255) );
+}
+.navbar .nav-link{
+    color: blue;
+    font-weight: 900;
+}
+.parallax {
+    /* The image used */
+    position: absolute;
+    width: 100%;
+    background-image: url(Background.jpg);
+  
+    /* Set a specific height */
+    min-height: 863.9px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .game{
     height: 150px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #dino{
@@ -17,6 +46,7 @@
     background-size: 50px 50px;
     position: relative;
     top: 98px;
+    left: 0px;
 }
 
 .jump{
@@ -25,7 +55,7 @@
 
 @keyframes jump {
     0%{
-        top: 100px;
+        top: 98px;
     }
     30%{
         top: 80px;
@@ -37,7 +67,7 @@
         top: 80px;
     }
     100%{
-        top: 100px;
+        top: 98px;
     }
 }
 
