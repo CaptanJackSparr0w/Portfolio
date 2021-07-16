@@ -1,10 +1,13 @@
-/* .my-col{
+.my-col{
     border: 2px solid red;
-} */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 .game{
-    width: 600px;
     height: 150px;
-    margin: auto;
+    border: 1px solid black;
 }
 
 #dino{
@@ -13,7 +16,7 @@
     background-image: url(trex.png);
     background-size: 50px 50px;
     position: relative;
-    top: 99px;
+    top: 98px;
 }
 
 .jump{
@@ -45,7 +48,7 @@
     background-image: url(cactus.png);
     background-size: 20px 40px;
     top: 59px;
-    left: 580px;
+    left: 99%;
     
     
 
@@ -55,13 +58,19 @@
 }
 @keyframes block {
     0%{
-        left: 580px;
+        left: 99%;
 
     }
     100%{
-        left:0px;
+        left:0%;
     }
 }
 .hide{
     visibility: hidden;
+}
+
+@media screen and (max-width:992px){
+    #dinothunder{
+        display: none;
+    }
 }
