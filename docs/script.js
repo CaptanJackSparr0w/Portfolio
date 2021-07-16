@@ -34,5 +34,4 @@ function start()
         if(cactus.classList != "start"){
             cactus.classList.add("start");
         }
-    }
-
+    };

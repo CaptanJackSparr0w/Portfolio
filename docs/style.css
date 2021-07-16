@@ -22,8 +22,7 @@
     /* The image used */
     position: absolute;
     width: 100%;
-    background-image: url(Background.jpg);
-  
+    background-image: url(background.jpg);
     /* Set a specific height */
     min-height: 863.9px; 
   
