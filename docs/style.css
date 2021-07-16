@@ -1,3 +1,67 @@
-.my-col{
+/* .my-col{
     border: 2px solid red;
+} */
+.game{
+    width: 600px;
+    height: 150px;
+    margin: auto;
+}
+
+#dino{
+    width: 50px;
+    height: 50px;
+    background-image: url(/img/trex.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 99px;
+}
+
+.jump{
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0%{
+        top: 100px;
+    }
+    30%{
+        top: 80px;
+    }
+    50%{
+        top: 30px;
+    }
+    80%{
+        top: 80px;
+    }
+    100%{
+        top: 100px;
+    }
+}
+
+#cactus{
+    width: 20px;
+    height: 40px;
+    position: relative;
+    background-image: url(/img/cactus.png);
+    background-size: 20px 40px;
+    top: 59px;
+    left: 580px;
+    
+    
+
+}
+.start{
+    animation: block 1s infinite linear;
+}
+@keyframes block {
+    0%{
+        left: 580px;
+
+    }
+    100%{
+        left:0px;
+    }
+}
+.hide{
+    visibility: hidden;
 }
