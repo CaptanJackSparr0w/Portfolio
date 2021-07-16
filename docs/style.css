@@ -2637,7 +2637,10 @@ input:checked + label .button_spots:nth-of-type(60) {
 }
 @keyframes finalbox {
   to {
-    width: 50px;
+      background-color: black;
+    width: 95px;
+    height: 85px;
+    
   }
 }
 @-webkit-keyframes tick {
